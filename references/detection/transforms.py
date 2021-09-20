@@ -2,8 +2,8 @@ import torch
 import torchvision
 
 from torch import nn, Tensor
-from torchvision.transforms import functional as F
-from torchvision.transforms import transforms as T
+from transforms import functional as F
+from transforms import transforms as T
 from typing import List, Tuple, Dict, Optional
 
 
